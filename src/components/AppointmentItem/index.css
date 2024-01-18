@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: transparent;
+  border-color: #b5b7c4;
+  width: 200px;
+  padding-left: 5px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 15px;
+}
+.date {
+  font-size: 10px;
+}
+.star-img {
+  background-color: transparent;
+  border: none;
+  align-self: start;
+  cursor: pointer;
+}
